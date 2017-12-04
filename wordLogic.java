@@ -33,7 +33,7 @@ public class wordLogic {
 			else {
 			char guessedWordToChar=guessedWord.charAt(0);
 			count++;
-			tries--;
+		
 		       for(int i=0;i<arrayChar.length;i++) {
 			      if(arrayChar[i]==guessedWordToChar) {
 				    cHidden[i]=guessedWordToChar;
@@ -47,7 +47,7 @@ public class wordLogic {
 		System.out.println(cHidden);
 		
 	}
-		System.out.println("You guess the number in "+count+" strikes and tries "+tries);
+		System.out.println("You guess the number in "+count+" strikes");
 				
   }
 		
